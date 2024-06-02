@@ -16,7 +16,7 @@ This is a companion app for Rick and Morty fans, designed to provide easy access
 ## Screenshots
 ***Browse through episodes with paginated loading.***
 
-<img src="https://raw.githubusercontent.com/semihasdan/Rick-and-Morty/main/assets/eDet.png" alt="Episode Details" width="300" height="600">
+<img src="https://raw.githubusercontent.com/semihasdan/Rick-and-Morty/main/assets/main.png" alt="Episode Details" width="300" height="600">
 
 ***View detailed information about a specific episode, including character lists.***
 
