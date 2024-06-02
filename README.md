@@ -1,50 +1,64 @@
-# Welcome to your Expo app 👋
+# Rick and Morty Companion App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+![Rick and Morty Logo](https://raw.githubusercontent.com/semihasdan/Rick-and-Morty/main/assets/gifRick.gif)
 
-## Get started
+This is a companion app for Rick and Morty fans, designed to provide easy access to information about episodes and characters from the show. The app fetches data from the [Rick and Morty API](https://rickandmortyapi.com/), allowing users to browse episodes, view character details, and manage their favorite characters.
 
-1. Install dependencies
+## Features
 
-   ```bash
-   npm install
-   ```
+- **Episode Listing:** View a paginated list of all episodes from the series.
+- **Character Listing:** Browse through characters, with paginated loading for a smooth experience.
+- **Search Functionality:** Easily search for episodes and characters based on their names and characteristics.
+- **Detailed Information:** Click on episodes to view detailed information, including character lists, and click on characters to see their details.
+- **Favorite Characters:** Save your favorite characters for quick access.
+- **Favorites Management:** Easily manage your list of favorite characters, with the ability to add, remove, and view details.
 
-2. Start the app
+## Screenshots
+***Browse through episodes with paginated loading.***
 
-   ```bash
-    npx expo start
-   ```
+<img src="https://raw.githubusercontent.com/semihasdan/Rick-and-Morty/main/assets/eDet.png" alt="Episode Details" width="300" height="600">
 
-In the output, you'll find options to open the app in a
+***View detailed information about a specific episode, including character lists.***
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+<img src="https://raw.githubusercontent.com/semihasdan/Rick-and-Morty/main/assets/eDet.png" alt="Episode Details" width="300" height="600">
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+***Explore characters from the show, with paginated loading for a smooth experience.***
 
-## Get a fresh project
+<img src="https://raw.githubusercontent.com/semihasdan/Rick-and-Morty/main/assets/car.png" alt="Episode Details" width="300" height="600">
 
-When you're ready, run:
+***Manage your favorite characters easily with the Favorites page.***
 
-```bash
-npm run reset-project
-```
+<img src="https://raw.githubusercontent.com/semihasdan/Rick-and-Morty/main/assets/fav.png" alt="Episode Details" width="300" height="600">
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Technologies Used
 
-## Learn more
+- **React Native:** Frontend framework for building cross-platform mobile applications.
+- **Axios:** HTTP client for making API requests.
+- **AsyncStorage:** Local storage for persisting favorite character data.
+- **Redux Toolkit:** State management library for managing favorite characters.
+- **React Navigation:** Navigation library for routing and navigation within the app.
+- **Material Icons:** Icon library for UI elements.
+- **Rick and Morty API:** Source of data for episodes and characters.
 
-To learn more about developing your project with Expo, look at the following resources:
+## Installation
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+To run this project locally, follow these steps:
 
-## Join the community
+1. Clone the repository:
+`git clone https://github.com/username/project.git`
+`git clone https://github.com/username/project.git`
 
-Join our community of developers creating universal apps.
+3. Install dependencies:
+`cd project`
+`npm install`
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+3. Run the app:
+`npm start`
+
+---
+
+Feel free to contribute to this project by submitting bug reports, feature requests, or pull requests. Happy coding! 🚀
+
+
+
+
